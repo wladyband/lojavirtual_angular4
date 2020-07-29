@@ -23,6 +23,10 @@ import { ShoppingCartComponent } from './restaurant-detail/shopping-cart/shoppin
 import { MenuItemComponent } from './restaurant-detail/menu-item/menu-item.component';
 import { ReviewsComponent } from './restaurant-detail/reviews/reviews.component';
 import { SharedModule } from './shared/shared.module';
+import { OrderComponent } from './order/order.component';
+import { OrderItemsComponent } from './order/order-items/order-items.component';
+import { OrderSummaryComponent } from './order-summary/order-summary.component';
+
 
 
 @NgModule({
@@ -37,8 +41,8 @@ import { SharedModule } from './shared/shared.module';
     MenuComponent,
     ShoppingCartComponent,
     MenuItemComponent,
-    ReviewsComponent
-
+    ReviewsComponent,
+    OrderSummaryComponent
 
   ],
   imports: [
